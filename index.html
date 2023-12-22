@@ -50,6 +50,9 @@
             <img id="Scene-1" src="./Style/Images/Scene-1.jpg">
             <img id="Scene-0" src="./Style/Images/Scene-0.jpg">
             <img id="Scene-2" src="./Style/Images/Scene-2.jpg">
+            <img id="Scene-3" src="./Style/Images/Scene-3.jpg">
+            <img id="Scene-4" src="./Style/Images/Scene-4.jpg">
+            <img id="Scene-5" src="./Style/Images/Scene-5.jpg">
     
         </a-assets>
 
@@ -95,6 +98,15 @@
              the_dote="Name_of_dote: Dote-1  ; Group_to_activate: Group-1 ; The_rotation: 0">
             </a-plane>
 
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5'
+             class="pintings clickable"
+             position="-0.51756 -1.69372 3.40039" rotation="-85.91674025325234 -46.448542535665574 135.92220478109007"
+             material="src: #Arrow-1; transparent:true"
+             the_dote="Name_of_dote: Dote-5  ; Group_to_activate: Group-5 ; The_rotation: 0">
+            </a-plane>
+
+
+
 
         </a-entity>
         <!-- Group-2. -->
@@ -105,7 +117,61 @@
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-1  ; Group_to_activate: Group-1 ; The_rotation: 0">
             </a-plane>
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+            position="0.84635 -1.27619 3.23141" rotation="-87.03859161611848 -38.020333369291166 -51.46707986321646" 
+                material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-4  ; Group_to_activate: Group-4 ; The_rotation: 0">
+            </a-plane>
 
+        
+
+        </a-entity>
+        <!-- Group-3 -->
+        <a-entity scale="0 0 0" rotation="0 -90 0" class="groups" id="Group-3" visible="false">
+
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+            position="0.81246 -1.27619 -2.5682" rotation="-87.38351220878725 -26.93531890689513 -62.56469939710538" 
+            material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-2  ; Group_to_activate: Group-2 ; The_rotation: 0">
+            </a-plane>
+
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+            
+                    position="1.6948 -1.27619 0.07929" rotation="-87.38351220878725 -26.93531890689513 -62.56469939710538" 
+            material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-4  ; Group_to_activate: Group-4 ; The_rotation: 0">
+            </a-plane>
+
+        </a-entity>
+        <!-- Group-4 -->
+        <a-entity scale="0 0 0" rotation="0 -90 0" class="groups" id="Group-4" visible="false">
+
+      
+
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+            position="-1.09341 -1.27619 -2.30679" rotation="-70.92472658585922 82.84625942914626 -172.75938030343607" 
+                    material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-2  ; Group_to_activate: Group-2 ; The_rotation: 0">
+            </a-plane>
+
+
+     
+         
+
+        </a-entity>
+   
+        <!-- Group-5 -->
+        <a-entity scale="0 0 0" rotation="0 -90 0" class="groups" id="Group-5" visible="false">
+
+      
+
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+            position="-0.2216 -1.27619 -2.84823" rotation="-87.38351220878725 -26.93531890689513 -62.56469939710538"
+            material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-0  ; Group_to_activate: Group-0 ; The_rotation: 0">
+            </a-plane>
+
+        
     
          
 
@@ -180,6 +246,15 @@
                                 break;
                             case 'Dote-2':
                                 the_sky.setAttribute('src', '#Scene-2')
+                                break;
+                            case 'Dote-3':
+                                the_sky.setAttribute('src', '#Scene-3')
+                                break;
+                            case 'Dote-4':
+                                the_sky.setAttribute('src', '#Scene-4')
+                                break;
+                            case 'Dote-5':
+                                the_sky.setAttribute('src', '#Scene-5')
                                 break;
                       
                    
